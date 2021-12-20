@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python
 
 import argparse
 import os
@@ -9,7 +9,7 @@ def init_args():
         description=
         """Renames files from directory from "title_ch01_asd.mp4" to "01.mp4" using text before and after number.
         Example:
-        before_number="ch" and after_number="_as.ds" will rename 
+        before_number="ch" and after_number="_as.ds" will rename
         "title_ch01_as.dsd.mp4" to "01.mp4"
         and "ch02_as.ds.mkv" to "02.mkv".
         """
